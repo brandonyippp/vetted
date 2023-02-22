@@ -743,6 +743,7 @@ const PanelItem = (props) => {
   const obtainDate = (time, onlyTime = false) => {
     /**
      * Returns a a string resembling a date such as Thu, 3:15 PM
+     * onlyTime will return just the HH:DD format if true
      */
     const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
