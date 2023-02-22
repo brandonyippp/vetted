@@ -584,7 +584,7 @@ const Panel = (props) => {
           ))
         ) : props.type === PanelTypes.Chat ? (
           <>
-            <div className="h-[80vh]">
+            <div className="h-[80vh] no-scrollbar">
               <div className="flex flex-col">
                 {props.currentUser.logs.map((log, index) => (
                   <PanelItem log={log} type={props.type} key={index} />
